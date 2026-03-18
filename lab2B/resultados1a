@@ -1,0 +1,21 @@
+1 a)
+Ao correr  o programa do ficheiro  server_math_v1.py e client_math_v1.py o terminal associado
+ao ficheiro do servidor  aparece que ele teve a espera da conexao  de um cliente na porta 35000
+que posteriormente foi conectada  por um cliente  com o ip privado "127.0.0.1" e de porta 35962
+onde o cliente manda  para o servidor somar  e subtrair os numeros 10 e 15 onde aparece os
+respetivos resultados  no terminal do  cliente e por fim o servidor apos efetuar as operacoes
+é parado.
+
+1 b)
+No terminal do servidor aparece que ele fica a espera que algum cliente  se conecte ao  servidor
+e quando o cliente se conecta aparece as operacoes que ele deseja que neste exemplo o cliente
+pede ao servidor para fazer as seguintes operacoes:  10 +15,  11-15  e 12-15 mas ao executar a
+operacao BYE_OP que é pedida pelo  cliente que apenas permitia sair do loop das operacoes
+ficheiro do  servidor da rede mas como o while loop do  programa do  servidor nao é fechado
+ o servidor nao  termina a sua execucao logo a alteracao que fizemos para terminar o programa
+do servidor  foi nessa operacao alterar o valor da flag keep_running  para falso  o que faz
+o sistema terminar  o programa do servidor.Apos fazer a alteracao anteriormente mencionada ao
+terminar  cliente  o servidor tambem  termina.
+
+1 c)
+
